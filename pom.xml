@@ -32,6 +32,11 @@
             <version>1.7</version>
         </dependency>
         <dependency>
+            <groupId>com.clevercloud</groupId>
+            <artifactId>clever-java-api</artifactId>
+            <version>b2137d1a2d808de374ff1caa6262d4a7ef5cba18</version>
+         <dependency>
+        <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-step-api</artifactId>
             <version>2.12</version>
@@ -94,7 +99,12 @@
         <repository>
             <id>repo.jenkins-ci.org</id>
             <url>https://repo.jenkins-ci.org/public/</url>
-        </repository>
+        </repository>        
+        <repository>
+          <id>clever-cloud</id>
+          <name>6322bf0e-b4aa-4427-b5aa-dadec8c6dec0-releases</name>
+          <url>http://artifactory.services.clever-cloud.com/artifactory/libs-release</url>
+       </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
